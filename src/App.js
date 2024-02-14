@@ -1,6 +1,6 @@
 import React from 'react';
 import UserProfile from './UserProfile';
-
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 const App = () => {
   const profileData = {
     name: 'John Doe',

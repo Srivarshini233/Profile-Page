@@ -47,8 +47,17 @@ const UserProfile = ({ name, email, profilePicture, qualification, skills, inter
             <h3>Contact:</h3>
             <p>{contact}</p>
           </div>
+          <div>
+            <h3>Languages Known</h3>
+            <p>tamil,English</p>
+          </div>
         </div>
+
       </div>
+      <div className="buttons-adn">
+      <button className="btn btn-style btn-light" type="button">Save</button>
+      <button className="btn btn-style btn-light" type="button">Edit</button>
+    </div>
     </div>
   );
 };
